@@ -224,3 +224,14 @@ data/processed/
 
 # Logs
 logs/
+
+# Data & artifacts
+data/
+models/
+embeddings/
+checkpoints/
+logs/
+
+# Secrets
+.env
+.env.*
