@@ -54,7 +54,16 @@ Future extensions may include tool use (such as SQL or Python execution), dashbo
 
 ## Project Status
 
-This project is under active development. Current efforts focus on establishing a clear system design, implementing a minimal end-to-end RAG pipeline, and defining evaluation criteria appropriate for semiconductor engineering analytics.
+This project is actively under development and currently implements a complete, runnable baseline for an LLM-powered analytics assistant.
+
+The repository includes a defined system architecture, scoped requirements, evaluation criteria, and a minimal end-to-end retrieval pipeline that operates in a safe, cost-free mode when external model APIs are not enabled.
+
+Current development focuses on:
+- Establishing a robust retrieval-augmented generation (RAG) foundation
+- Defining evaluation and failure modes appropriate for engineering analytics
+- Designing tool-ready interfaces for future structured data analysis and MCP-style integrations
+
+Planned next steps include integrating structured manufacturing datasets, expanding tool-based reasoning capabilities, and enabling full LLM-backed inference once development milestones are met.
 
 ---
 
